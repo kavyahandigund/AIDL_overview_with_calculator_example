@@ -2,29 +2,8 @@ aidl
 
 structure 
 
-vendor/visteon/system/
-└── calculator/
-    │
-    ├── aidl/
-    │   │
-    │   ├── Android.bp
-    │   │
-    │   └── vendor/
-    │       └── visteon/
-    │           └── calculator/
-    │               └── ICalculatorService.aidl
-    │
-    ├── default/
-    │   │
-    │   ├── Android.bp
-    │   ├── main.cpp                  //we need to register the service here by adding service
-    │   ├── CalculatorService.h
-    │   └── CalculatorService.cpp
-    │
-    └── testapp/
-        │
-        ├── Android.bp
-        └── calculator_test_app_main.cpp                  //get service here 
+<img width="970" height="621" alt="image" src="https://github.com/user-attachments/assets/6345fa22-42d9-43c4-9fba-d3ceccf1d0de" />
+
 		
 
 
