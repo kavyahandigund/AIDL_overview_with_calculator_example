@@ -1,0 +1,24 @@
+cc_binary {
+    name: "calculator_test_app",
+
+    vendor: true,
+
+    srcs: [
+        "calculator_test_app_main.cpp",
+    ],
+
+    shared_libs: [
+        "libbinder_ndk",
+        "libutils",
+        "liblog",
+    ],
+
+    static_libs: [
+        "vendor.visteon.calculator-V2-ndk",
+    ],
+
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+}

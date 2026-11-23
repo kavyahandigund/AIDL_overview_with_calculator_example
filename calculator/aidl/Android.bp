@@ -1,0 +1,35 @@
+aidl_interface {
+    name: "vendor.visteon.calculator",
+    vendor_available: true,
+
+    srcs: [
+        "vendor/visteon/calculator/*.aidl",
+    ],
+
+    stability: "vintf",
+    owner: "display",
+
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            enabled: false,
+        },
+        ndk: {
+            enabled: true,
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+        {
+            version: "2",
+            imports: [],
+        },
+
+    ],
+
+}
